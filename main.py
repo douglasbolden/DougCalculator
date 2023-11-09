@@ -8,7 +8,8 @@ class ClockDemo(QWidget):
     def __init__(self):
         super().__init__()
         self.setFixedSize(375, 75)
-
+        self.setWindowOpacity(0.8)
+        
         layout = QVBoxLayout()
 
         fnt = QFont("SansSerif", 40, QFont.Weight.DemiBold)
